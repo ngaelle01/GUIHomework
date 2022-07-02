@@ -4,6 +4,11 @@ const port = process.env.PORT || 5000
 
 const server = express()
 const publicPath = path.join(__dirname, 'build')
+
+// edits start
+//const hwPath = path.join(__dirname, "hw")
+//server.use("/hw/2", express.static(hwPath))
+
 server.use(express.static(publicPath))
 server.get("/*", (req, res)=>{
   res.sendFile(path.join(publicPath, 'index.html'))
