@@ -1,0 +1,35 @@
+:root {
+    --celadon-green: #21897eff;
+    --keppel: #3ba99cff;
+    --medium-turquoise: #69d1c5ff;
+    --maximum-blue-purple: #a09be7ff;
+    --purple: #5f00baff;
+}
+
+.myTitle {
+    text-align: center;
+}
+
+.flex-container {
+    padding-top: 50px;
+}
+
+.centerTabs {
+    text-align: center;
+}
+
+.tablink {
+    background-color: var(--celadon-green);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: var(--keppel);
+}
