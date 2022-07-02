@@ -1,8 +1,19 @@
+import React from 'react';
+//import "../public/index.html"
 function App(){
     return(
-        <main>
+        <div>
+            <a href="/public/index.html">Press</a>
+        </div>
+        /*<main>
             <p>Had to comment out the Route paths.</p>
-        </main>
+
+        </main>*/
+        /*<div>
+            <p>Hi! My name is Gabrielle Nguyen and I'm a computer science major.
+            My main languages are Java and C.</p>
+        </div>*/
+
     )
 }
 
